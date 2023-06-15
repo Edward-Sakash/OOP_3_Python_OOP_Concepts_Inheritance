@@ -26,7 +26,39 @@ instance.
   shepard instances are created. 
 - No extra action should be taken here.
 
+Hint: with super().parents_method  you can access all methods of the parent's class 
 
 You should have an output similar to the one below:
 
 ![img.png](img.png)
+
+This is an instance of[Animal]. It has [2] legs and [2] eyes.
+
+The Animal is breathing.
+
+Walking with [2] legs.
+
+======
+
+This is an instance of [Dog]. It has [4] legs and [2] eyes.
+
+The Dog is breathing.
+Dogs love to breath with their mouths open.
+
+Walking with [4] legs.
+Dogs love to run.
+
+=====
+
+This is an instance of [GermanShepard]. It has [4] legs and [2] eyes.
+
+The CermanShepard is breathing.
+Dogs love to breath with their mouths open.
+
+Walking with [4] legs.
+Dogs love to run.
+German Shepard's show their beautiful color while running.
+
+=====
+
+
